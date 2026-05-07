@@ -1,5 +1,11 @@
-import Hero from "../sections/Hero";
+import Features from "@/sections/Features";
+import Hero from "@/sections/Hero";
 
 export default function Home() {
-  return <Hero />;
+  return (
+    <>
+      <Hero />;
+      <Features />
+    </>
+  );
 }

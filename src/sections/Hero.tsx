@@ -4,15 +4,15 @@ import { IoIosArrowForward } from "react-icons/io";
 export default function Hero() {
   return (
     <section
-      className="relative min-h-screen flex justify-start items-center px-0 lg:px-20 text-white"
+      className="relative min-h-screen flex justify-center lg:justify-start items-center px-4 lg:px-20 text-white"
       style={{
         backgroundImage: `url(${heroImage})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
     >
-      <div className="max-w-1/2">
-        <h1 className="text-white text-6xl font-black">
+      <div className="lg:max-w-1/2 flex flex-col items-center text-center lg:text-start lg:items-start">
+        <h1 className="text-white text-4xl md:text-6xl font-black">
           FIND YOUR LUXURY DREAM HOME
         </h1>
         <p className="mt-4 text-gray-300 max-w-xl leading-relaxed">

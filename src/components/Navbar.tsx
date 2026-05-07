@@ -30,7 +30,7 @@ export default function Navbar() {
               scrolled ? "text-black" : "text-white"
             }`}
           >
-            NusaTrip
+            TerraHive
           </span>
         </a>
 
@@ -60,7 +60,7 @@ export default function Navbar() {
               <a
                 href="#"
                 className={`
-                      block py-2 px-3 rounded transition
+                      block py-2 px-4 rounded-md transition
                       ${
                         scrolled
                           ? "text-black hover:bg-primary hover:text-white transition duration-300"
@@ -68,14 +68,29 @@ export default function Navbar() {
                       }
                     `}
               >
-                Beranda
+                Home
+              </a>
+            </li>
+            <li>
+              <a
+                href="#features"
+                className={`
+                      block py-2 px-4 rounded-md transition
+                      ${
+                        scrolled
+                          ? "text-black hover:bg-primary hover:text-white transition duration-300"
+                          : "text-white hover:bg-white/10 md:hover:bg-primary md:hover:text-white transition duration-300"
+                      }
+                    `}
+              >
+                Features
               </a>
             </li>
             <li>
               <a
                 href="#about"
                 className={`
-                      block py-2 px-3 rounded transition
+                      block py-2 px-4 rounded-md transition
                       ${
                         scrolled
                           ? "text-black hover:bg-primary hover:text-white transition duration-300"
@@ -88,9 +103,9 @@ export default function Navbar() {
             </li>
             <li>
               <a
-                href="#destinations"
+                href="#properties"
                 className={`
-                      block py-2 px-3 rounded transition
+                      block py-2 px-4 rounded-md transition
                       ${
                         scrolled
                           ? "text-black hover:bg-primary hover:text-white transition duration-300"
@@ -98,37 +113,7 @@ export default function Navbar() {
                       }
                     `}
               >
-                Destination
-              </a>
-            </li>
-            <li>
-              <a
-                href="#advantages"
-                className={`
-                      block py-2 px-3 rounded transition
-                      ${
-                        scrolled
-                          ? "text-black hover:bg-primary hover:text-white transition duration-300"
-                          : "text-white hover:bg-white/10 md:hover:bg-primary md:hover:text-white transition duration-300"
-                      }
-                    `}
-              >
-                Advantage
-              </a>
-            </li>
-            <li>
-              <a
-                href="#reviews"
-                className={`
-                      block py-2 px-3 rounded transition
-                      ${
-                        scrolled
-                          ? "text-black hover:bg-primary hover:text-white transition duration-300"
-                          : "text-white hover:bg-white/10 md:hover:bg-primary md:hover:text-white transition duration-300"
-                      }
-                    `}
-              >
-                Review
+                Properties
               </a>
             </li>
           </ul>

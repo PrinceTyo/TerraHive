@@ -14,7 +14,7 @@ import { Separator } from "@/components/ui/separator";
 
 export default function Properties() {
   return (
-    <section className="px-4 py-20 md:px-20 bg-gray-100" id="Propertiess">
+    <section className="px-4 py-20 md:px-20 bg-gray-100" id="properties">
       <Carousel
         opts={{
           align: "start",
@@ -22,8 +22,8 @@ export default function Properties() {
         }}
         className="w-full"
       >
-        <div className="flex flex-col md:flex-row md:items-end md:justify-between mb-10">
-          <div className="space-y-2 md:space-y-4">
+        <div className="flex items-end justify-between mb-10">
+          <div className="space-y-2 lg:space-y-4">
             <p className="text-primary tracking-widest text-md md:text-lg">
               ― POPULAR
             </p>
@@ -33,7 +33,7 @@ export default function Properties() {
           </div>
 
           <div className="relative flex flex-col md:flex-col-reverse items-start md:items-end lg:flex-row lg:items-center gap-2 mt-6 lg:mt-0">
-            <div className="flex items-center gap-x-1 me-8">
+            <div className="flex items-center gap-x-1 lg:me-8">
               <CarouselPrevious className="static translate-x-0 translate-y-0" />
               <CarouselNext className="static translate-x-0 translate-y-0" />
             </div>
@@ -42,7 +42,7 @@ export default function Properties() {
         <CarouselContent className="-ml-1">
           <CarouselItem className=" pl-1 md:basis-1/2 lg:basis-1/3">
             <div className="p-1">
-              <div className="rounded-lg w-full md:w-102 bg-white">
+              <div className="rounded-lg w-full lg:w-102 bg-white">
                 <img
                   src="https://i.pinimg.com/736x/ba/28/2e/ba282e6465d684da2cee26b17dc466f0.jpg"
                   alt="Image Properties"
@@ -51,7 +51,7 @@ export default function Properties() {
                 <div className="p-6 space-y-4">
                   <div className="flex items-center gap-x-2">
                     <FaLocationDot className="w-6 h-6" />
-                    <h1 className="text-xl font-bold">
+                    <h1 className="text-lg lg:text-xl font-bold">
                       Sobo Indah, Banyuwangi
                     </h1>
                   </div>
@@ -93,7 +93,7 @@ export default function Properties() {
           </CarouselItem>
           <CarouselItem className=" pl-1 md:basis-1/2 lg:basis-1/3">
             <div className="p-1">
-              <div className="rounded-lg w-full md:w-102 bg-white">
+              <div className="rounded-lg w-full lg:w-102 bg-white">
                 <img
                   src="https://i.pinimg.com/736x/57/7a/6e/577a6eff5e7097cb2d41872a0a544e02.jpg"
                   alt="Image Properties"
@@ -102,8 +102,8 @@ export default function Properties() {
                 <div className="p-6 space-y-4">
                   <div className="flex items-center gap-x-2">
                     <FaLocationDot className="w-6 h-6" />
-                    <h1 className="text-xl font-bold">
-                      Cungking Permai, Banyuwangi
+                    <h1 className="text-lg lg:text-xl font-bold">
+                      Diamond, Bandung
                     </h1>
                   </div>
                   <div className="space-y-2">
@@ -144,7 +144,7 @@ export default function Properties() {
           </CarouselItem>
           <CarouselItem className=" pl-1 md:basis-1/2 lg:basis-1/3">
             <div className="p-1">
-              <div className="rounded-lg w-full md:w-102 bg-white">
+              <div className="rounded-lg w-full lg:w-102 bg-white">
                 <img
                   src="https://i.pinimg.com/736x/4e/eb/51/4eeb517e0e27076e0ba8fd882459174c.jpg"
                   alt="Image Properties"
@@ -153,7 +153,7 @@ export default function Properties() {
                 <div className="p-6 space-y-4">
                   <div className="flex items-center gap-x-2">
                     <FaLocationDot className="w-6 h-6" />
-                    <h1 className="text-xl font-bold">
+                    <h1 className="text-lg lg:text-xl font-bold">
                       Adimas Permai, Banyuwangi
                     </h1>
                   </div>
@@ -195,7 +195,7 @@ export default function Properties() {
           </CarouselItem>
           <CarouselItem className=" pl-1 md:basis-1/2 lg:basis-1/3">
             <div className="p-1">
-              <div className="rounded-lg w-full md:w-102 bg-white">
+              <div className="rounded-lg w-full lg:w-102 bg-white">
                 <img
                   src="https://i.pinimg.com/736x/8d/a3/64/8da364298f2ee0972608bd86ccaaacae.jpg"
                   alt="Image Properties"
@@ -204,7 +204,7 @@ export default function Properties() {
                 <div className="p-6 space-y-4">
                   <div className="flex items-center gap-x-2">
                     <FaLocationDot className="w-6 h-6" />
-                    <h1 className="text-xl font-bold">
+                    <h1 className="text-lg lg:text-xl font-bold">
                       Plengkung Permai, Solo
                     </h1>
                   </div>
@@ -246,7 +246,7 @@ export default function Properties() {
           </CarouselItem>
           <CarouselItem className=" pl-1 md:basis-1/2 lg:basis-1/3">
             <div className="p-1">
-              <div className="rounded-lg w-full md:w-102 bg-white">
+              <div className="rounded-lg w-full lg:w-102 bg-white">
                 <img
                   src="https://i.pinimg.com/1200x/33/80/58/3380589d3796bf1a2dcbba9764ee94f0.jpg"
                   alt="Image Properties"
@@ -255,7 +255,7 @@ export default function Properties() {
                 <div className="p-6 space-y-4">
                   <div className="flex items-center gap-x-2">
                     <FaLocationDot className="w-6 h-6" />
-                    <h1 className="text-xl font-bold">
+                    <h1 className="text-lg lg:text-xl font-bold">
                       Citraland, Surabaya Barat
                     </h1>
                   </div>

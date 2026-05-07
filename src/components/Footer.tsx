@@ -19,8 +19,8 @@ export default function Footer() {
             <h1 className="font-semibold text-3xl">TerraHive</h1>
           </div>
           <blockquote className="italic">
-            Nusa Trip Travel Agency offers unique and memorable tours, providing
-            rich experiences in the beautiful country of Nusa Trip. [+]
+            TerraHive Property offers modern and strategic living spaces,
+            elegance, and long-term value for every homeowner and investor. [+]
           </blockquote>
           <div className="flex items-center gap-x-2">
             <a href="">
@@ -49,61 +49,57 @@ export default function Footer() {
           <p>
             <a
               href=""
-              className="text-md cursor-pointer hover:text-green-500 transition duration-300"
+              className="text-md cursor-pointer hover:text-secondary transition duration-300"
             >
-              nusatrip@gmail.com
+              terrahive@gmail.com
             </a>
           </p>
           <p>
             <a
               href=""
-              className="text-md cursor-pointer hover:text-green-500 transition duration-300"
+              className="text-md cursor-pointer hover:text-secondary transition duration-300"
             >
-              www.nusatrip.com
+              www.terrahive.com
             </a>
           </p>
         </div>
         <div className="space-y-3">
-          <h1 className="text-2xl font-semibold mb-4">Nusa Trip</h1>
+          <h1 className="text-2xl font-semibold mb-4">TerraHive</h1>
           <p>
             <a
-              href=""
-              className="text-md cursor-pointer hover:text-green-500 transition duration-300"
+              href="#"
+              className="text-md cursor-pointer hover:text-secondary transition duration-300"
             >
               Home
             </a>
           </p>
           <p>
             <a
-              href=""
-              className="text-md cursor-pointer hover:text-green-500 transition duration-300"
+              href="#features"
+              className="text-md cursor-pointer hover:text-secondary transition duration-300"
+            >
+              Features
+            </a>
+          </p>
+          <p>
+            <a
+              href="#about"
+              className="text-md cursor-pointer hover:text-secondary transition duration-300"
             >
               About
             </a>
           </p>
           <p>
             <a
-              href=""
-              className="text-md cursor-pointer hover:text-green-500 transition duration-300"
+              href="#properties"
+              className="text-md cursor-pointer hover:text-secondary transition duration-300"
             >
-              Destinations
-            </a>
-          </p>
-          <p>
-            <a
-              href=""
-              className="text-md cursor-pointer hover:text-green-500 transition duration-300"
-            >
-              Advantages
+              Properties
             </a>
           </p>
         </div>
-        <div>
-          <img
-            src={footerImage}
-            alt="Footer Image"
-            className="w-full lg:w-50"
-          />
+        <div className="flex items-center justify-center md:justify-start">
+          <img src={footerImage} alt="Footer Image" className="w-50" />
         </div>
       </div>
       <Separator />
@@ -115,7 +111,7 @@ export default function Footer() {
           <p>
             <a
               href=""
-              className="cursor-pointer hover:text-green-500 transition duration-300"
+              className="cursor-pointer hover:text-secondary transition duration-300"
             >
               Privacy Policy
             </a>
@@ -123,7 +119,7 @@ export default function Footer() {
           <p>
             <a
               href=""
-              className="cursor-pointer hover:text-green-500 transition duration-300"
+              className="cursor-pointer hover:text-secondary transition duration-300"
             >
               Terms of Use
             </a>

@@ -21,7 +21,7 @@ export default function Hero() {
           to match your lifestyle and future aspirations.
         </p>
         <a href="#">
-          <button className="mt-6 cursor-pointer flex items-center gap-2 py-3 px-8 bg-primary rounded-full text-white font-medium text-lg">
+          <button className="mt-6 cursor-pointer flex items-center gap-2 py-3 px-8 bg-primary rounded-lg text-white font-medium text-lg">
             Explore More <IoIosArrowForward />
           </button>
         </a>

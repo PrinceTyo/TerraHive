@@ -16,7 +16,7 @@ export default function About() {
         <img
           src="https://i.pinimg.com/736x/38/34/a6/3834a6fbc01211938cd831b0bd868068.jpg"
           alt="About Image"
-          className="w-126 h-112 object-cover rounded-3xl"
+          className="w-126 h-116 object-cover rounded-3xl"
           style={{
             clipPath: "polygon(0 0, 75% 0, 100% 25%, 100% 100%, 0 100%)",
           }}
@@ -25,10 +25,13 @@ export default function About() {
 
       <div className="w-2/3">
         <div>
+          <p className="text-primary tracking-widest text-md md:text-lg">
+            ― ABOUT
+          </p>
           <h1 className="text-4xl font-bold leading-tight">
             About The Story Behind Us
           </h1>
-          <p className="mt-6 text-gray-600 leading-relaxed max-w-2xl">
+          <p className="mt-4 text-gray-600 leading-relaxed max-w-2xl">
             We are dedicated to creating exceptional living spaces that combine
             modern architecture, comfort, and timeless elegance. Our passion is
             helping people discover homes that reflect their lifestyle, dreams,
@@ -42,7 +45,7 @@ export default function About() {
               <p>Years of Experience</p>
             </div>
             <div>
-              <HiBadgeCheck className="w-14 h-14 p-2 bg-gray-100 rounded-full" />
+              <HiBadgeCheck className="w-14 h-14 p-2 bg-gray-100 text-primary rounded-full" />
             </div>
           </div>
           <div className="flex items-center justify-between bg-white px-8 py-4 gap-10 rounded-lg border border-gray-100">
@@ -51,7 +54,7 @@ export default function About() {
               <p>Happy Clients</p>
             </div>
             <div>
-              <FaPeopleGroup className="w-14 h-14 p-2 bg-gray-100 rounded-full" />
+              <FaPeopleGroup className="w-14 h-14 p-2 bg-gray-100 text-primary rounded-full" />
             </div>
           </div>
           <div className="flex items-center justify-between bg-white px-8 py-4 gap-10 rounded-lg border border-gray-100">
@@ -60,7 +63,7 @@ export default function About() {
               <p>Luxury Home Sold</p>
             </div>
             <div>
-              <MdRealEstateAgent className="w-14 h-14 p-2 bg-gray-100 rounded-full" />
+              <MdRealEstateAgent className="w-14 h-14 p-2 bg-gray-100 text-primary rounded-full" />
             </div>
           </div>
           <div className="flex items-center justify-between bg-white px-8 py-4 gap-10 rounded-lg border border-gray-100">
@@ -69,7 +72,7 @@ export default function About() {
               <p>Countries of Clientele</p>
             </div>
             <div>
-              <FaGlobeAmericas className="w-14 h-14 p-2 bg-gray-100 rounded-full" />
+              <FaGlobeAmericas className="w-14 h-14 p-2 bg-gray-100 text-primary rounded-full" />
             </div>
           </div>
         </div>

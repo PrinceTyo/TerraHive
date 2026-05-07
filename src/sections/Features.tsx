@@ -6,7 +6,7 @@ export default function Features() {
   return (
     <section className="px-0 py-20 lg:px-20 bg-white">
       <div className="flex flex-col items-center justify-center gap-y-3">
-        <h1 className="text-5xl font-bold">Why Choose Our Properties</h1>
+        <h1 className="text-4xl font-bold">Why Choose Our Properties</h1>
         <p className="text-gray-600">
           We provide luxury residences with strategic locations and trusted
           property services.

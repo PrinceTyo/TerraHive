@@ -11,7 +11,6 @@ export default function Parallax() {
         backgroundPosition: "center",
       }}
     >
-      <div className="absolute inset-0 bg-black/50"></div>
       <div className="z-10 text-start max-w-1/2 space-y-4 px-20">
         <h1 className="text-3xl md:text-4xl text-white font-semibold">
           Discover Modern Luxury Living Designed For Your Future
@@ -21,7 +20,7 @@ export default function Parallax() {
           locations, and exceptional comfort tailored to your lifestyle.
         </p>
         <a href="#">
-          <button className="cursor-pointer flex items-center gap-2 py-3 px-8 bg-primary rounded-lg text-white font-medium text-lg">
+          <button className="mt-12 cursor-pointer flex items-center gap-2 py-3 px-8 bg-primary rounded-lg text-white font-medium text-lg">
             Explore More <IoIosArrowForward />
           </button>
         </a>

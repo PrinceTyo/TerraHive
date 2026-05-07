@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-// import logoImage from "@/assets/logo.png";
+import logoImage from "@/assets/logo.png";
 import { RxHamburgerMenu } from "react-icons/rx";
 
 export default function Navbar() {
@@ -24,7 +24,7 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between p-4">
         <a href="#" className="flex items-center gap-2">
-          {/* <img src={logoImage} className="h-12" alt="Logo" /> */}
+          <img src={logoImage} className="h-12" alt="Logo" />
           <span
             className={`text-xl font-semibold ${
               scrolled ? "text-black" : "text-white"

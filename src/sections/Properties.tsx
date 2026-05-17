@@ -42,7 +42,7 @@ export default function Properties() {
         <CarouselContent className="-ml-1">
           <CarouselItem className=" pl-1 md:basis-1/2 lg:basis-1/3">
             <div className="p-1">
-              <div className="rounded-lg w-full lg:w-102 bg-white">
+              <div className="rounded-lg w-full lg:w-102 bg-white max-w-[98%]">
                 <img
                   src="https://i.pinimg.com/736x/ba/28/2e/ba282e6465d684da2cee26b17dc466f0.jpg"
                   alt="Image Properties"
@@ -93,7 +93,7 @@ export default function Properties() {
           </CarouselItem>
           <CarouselItem className=" pl-1 md:basis-1/2 lg:basis-1/3">
             <div className="p-1">
-              <div className="rounded-lg w-full lg:w-102 bg-white">
+              <div className="rounded-lg w-full lg:w-102 bg-white max-w-[98%]">
                 <img
                   src="https://i.pinimg.com/736x/57/7a/6e/577a6eff5e7097cb2d41872a0a544e02.jpg"
                   alt="Image Properties"
@@ -144,7 +144,7 @@ export default function Properties() {
           </CarouselItem>
           <CarouselItem className=" pl-1 md:basis-1/2 lg:basis-1/3">
             <div className="p-1">
-              <div className="rounded-lg w-full lg:w-102 bg-white">
+              <div className="rounded-lg w-full lg:w-102 bg-white max-w-[98%]">
                 <img
                   src="https://i.pinimg.com/736x/4e/eb/51/4eeb517e0e27076e0ba8fd882459174c.jpg"
                   alt="Image Properties"
@@ -195,7 +195,7 @@ export default function Properties() {
           </CarouselItem>
           <CarouselItem className=" pl-1 md:basis-1/2 lg:basis-1/3">
             <div className="p-1">
-              <div className="rounded-lg w-full lg:w-102 bg-white">
+              <div className="rounded-lg w-full lg:w-102 bg-white max-w-[98%]">
                 <img
                   src="https://i.pinimg.com/736x/8d/a3/64/8da364298f2ee0972608bd86ccaaacae.jpg"
                   alt="Image Properties"
@@ -246,7 +246,7 @@ export default function Properties() {
           </CarouselItem>
           <CarouselItem className=" pl-1 md:basis-1/2 lg:basis-1/3">
             <div className="p-1">
-              <div className="rounded-lg w-full lg:w-102 bg-white">
+              <div className="rounded-lg w-full lg:w-102 bg-white max-w-[98%]">
                 <img
                   src="https://i.pinimg.com/1200x/33/80/58/3380589d3796bf1a2dcbba9764ee94f0.jpg"
                   alt="Image Properties"
